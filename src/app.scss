@@ -1,0 +1,27 @@
+@import "~@blueprintjs/core/dist/blueprint.css";
+@import "~@blueprintjs/core/dist/variables.scss";
+@import "~@blueprintjs/datetime/dist/blueprint-datetime.css";
+@import "~@blueprintjs/labs/dist/blueprint-labs.css";
+
+body {
+  background: $pt-dark-app-background-color;
+  margin: 0;
+
+  .pt-navbar {
+    align-items: center;
+    display: flex;
+  }
+
+  .app-root {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+
+    .root-pane {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 50px);
+      justify-content: space-around;
+    }
+  }
+}
