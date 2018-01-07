@@ -7,15 +7,20 @@ body {
   background: $pt-dark-app-background-color;
   margin: 0;
 
-  .pt-navbar {
-    align-items: center;
-    display: flex;
-  }
-
   .app-root {
     height: 100vh;
     position: relative;
     width: 100vw;
+
+    .pt-navbar {
+      align-items: center;
+      display: flex;
+      padding: 0 10px;
+
+      .pt-icon-user {
+        margin-right: 10px;
+      }
+    }
 
     .root-pane {
       display: flex;
