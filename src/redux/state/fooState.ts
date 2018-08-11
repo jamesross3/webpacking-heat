@@ -3,5 +3,5 @@ export interface IFooState {
 }
 
 export const INITIAL_FOO: IFooState = {
-    bar: "",
+    bar: "BAR",
 };
