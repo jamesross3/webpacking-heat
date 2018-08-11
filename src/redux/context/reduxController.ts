@@ -1,8 +1,8 @@
 /**
  * External
  */
-import { Action, Dispatch, Store } from "redux";
-import { ThunkAction } from "redux-thunk";
+import { Dispatch } from "redoodle";
+import { Action, Store } from "redux";
 
 /**
  * Internal
@@ -29,6 +29,6 @@ class ReduxController {
         return new FooDispatcher(this.getDispatch());
     }
 
-    private getDispatch = (): Dispatch<IAppState> => this.store.dispatch.bind(this.store);
+    private getDispatch = (): Dispatch => this.store.dispatch.bind(this.store);
 
 }

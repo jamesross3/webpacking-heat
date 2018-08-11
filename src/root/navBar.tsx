@@ -1,7 +1,8 @@
 /**
  * External
  */
-import { Classes, Icon, IconClasses } from "@blueprintjs/core";
+import { Classes, Icon } from "@blueprintjs/core";
+import { IconNames } from "@blueprintjs/icons";
 import * as React from "react";
 
 export class NavBar extends React.PureComponent<{}, {}> {
@@ -9,7 +10,7 @@ export class NavBar extends React.PureComponent<{}, {}> {
     public render() {
         return (
             <div className={Classes.NAVBAR}>
-                <Icon iconName={IconClasses.USER} iconSize={20}/>
+                <Icon icon={IconNames.USER} iconSize={20}/>
                 Hello, James
             </div>
         );

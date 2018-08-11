@@ -1,7 +1,8 @@
 /**
  * External
  */
-import { IconClasses, NonIdealState } from "@blueprintjs/core";
+import { NonIdealState } from "@blueprintjs/core";
+import { IconNames } from "@blueprintjs/icons";
 import * as React from "react";
 
 export class RootPane extends React.PureComponent<{}, {}> {
@@ -12,7 +13,7 @@ export class RootPane extends React.PureComponent<{}, {}> {
                 <NonIdealState
                     description="Implement something here!"
                     title="Clean Slate"
-                    visual={IconClasses.CLOUD}
+                    icon={IconNames.CLOUD}
                 />
             </div>
         );

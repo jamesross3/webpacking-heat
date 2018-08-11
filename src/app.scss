@@ -1,7 +1,7 @@
-@import "~@blueprintjs/core/dist/blueprint.css";
-@import "~@blueprintjs/core/dist/variables.scss";
-@import "~@blueprintjs/datetime/dist/blueprint-datetime.css";
-@import "~@blueprintjs/labs/dist/blueprint-labs.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "~@blueprintjs/core/lib/scss/variables.scss";
 
 body {
   background: $pt-dark-app-background-color;
@@ -12,12 +12,12 @@ body {
     position: relative;
     width: 100vw;
 
-    .pt-navbar {
+    .bp3-navbar {
       align-items: center;
       display: flex;
       padding: 0 10px;
 
-      .pt-icon-user {
+      .bp3-icon {
         margin-right: 10px;
       }
     }

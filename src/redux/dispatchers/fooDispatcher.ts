@@ -1,7 +1,7 @@
 /**
  * External
  */
-import { Dispatch } from "redux";
+import { Action, Dispatch } from "redoodle";
 
 /**
  * Local
@@ -12,7 +12,7 @@ import { IAppState } from "../state/state";
 
 export class FooDispatcher {
 
-    constructor(private dispatch: Dispatch<IAppState>) {}
+    constructor(private dispatch: Dispatch) {}
 
     public setBar(bar: string) {
         this.dispatch(setBar({bar}));
