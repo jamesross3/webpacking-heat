@@ -13,7 +13,7 @@ export class RootPane extends React.PureComponent<{}, {}> {
                 <NonIdealState
                     description="Implement something here!"
                     title="Clean Slate"
-                    icon={IconNames.CLOUD}
+                    icon={IconNames.CHEVRON_DOWN}
                 />
             </div>
         );
